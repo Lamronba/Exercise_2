@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".signlog2">
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="50dp"
+        android:src="@drawable/stat"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log-in to your Account"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        />
+    <EditText
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/username1"
+        android:hint="Username or Email"
+        android:textSize="25dp"
+        android:textColorHint="#808080"
+        android:background="@drawable/editextbackground"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:id="@+id/password1"
+        android:hint="Password"
+        android:textSize="25dp"
+        android:textColorHint="#808080"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/editextbackground"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot"
+        android:text="Forgot Password?"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+
+
+
+
+    <Button
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/signin1"
+        android:text="LOG-IN"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginwith"
+        android:text="OR LOG-IN WITH"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ssocialicons"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="66dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/gg" />
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="66dp"
+            android:src="@drawable/fbb"
+            android:layout_margin="15dp"
+            />
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="66dp"
+            android:src="@drawable/img_1"
+            android:layout_margin="15dp"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dont"
+        android:text="Don't have an account? Sign-up"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="20dp"/>
+
+
+
+</LinearLayout>
